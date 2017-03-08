@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11521.1" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CircleCollectionViewCell" customModule="CrowdCircle" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CircleCell" id="gTV-IL-0wX" customClass="CircleCollectionViewCell" customModule="CrowdCircle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="564"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="564"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="v9p-3h-Vzx">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFd-fd-K7J">
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k8r-2Z-QsU" customClass="CircleView" customModule="CrowdCircle" customModuleProvider="target">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="v9p-3h-Vzx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="h6G-Fv-lvB"/>
+                <constraint firstItem="v9p-3h-Vzx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hcc-Ph-9Fs"/>
+                <constraint firstItem="v9p-3h-Vzx" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="w1q-J4-yvP"/>
+                <constraint firstItem="v9p-3h-Vzx" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="xfu-mB-imC"/>
+            </constraints>
+            <size key="customSize" width="405" height="558"/>
+            <connections>
+                <outlet property="circleView" destination="k8r-2Z-QsU" id="x8e-vE-QQL"/>
+                <outlet property="countLabel" destination="eFd-fd-K7J" id="u7P-Ld-0Ma"/>
+            </connections>
+            <point key="canvasLocation" x="143" y="242"/>
+        </collectionViewCell>
+    </objects>
+</document>

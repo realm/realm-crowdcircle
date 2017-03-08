@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C52FBB234858A81847723DDE /* Pods_CrowdCircle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D64A1833AEAB6C2AEDEAC0 /* Pods_CrowdCircle.framework */; };
+		F18857821DAFFFC6008BA3BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18857811DAFFFC6008BA3BD /* Constants.swift */; };
+		F18857851DB014F7008BA3BD /* CircleCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18857841DB014F7008BA3BD /* CircleCount.swift */; };
+		F18857871DB01FC8008BA3BD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18857861DB01FC8008BA3BD /* Common.swift */; };
+		F188578C1DB036A2008BA3BD /* LocalIPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188578B1DB036A2008BA3BD /* LocalIPAddress.swift */; };
+		F1CD40501DAEB1B2007DA826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD404F1DAEB1B2007DA826 /* AppDelegate.swift */; };
+		F1CD40571DAEB1B2007DA826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CD40561DAEB1B2007DA826 /* Assets.xcassets */; };
+		F1CD405A1DAEB1B2007DA826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CD40581DAEB1B2007DA826 /* LaunchScreen.storyboard */; };
+		F1CD40691DAEC108007DA826 /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD40671DAEC108007DA826 /* ClientViewController.swift */; };
+		F1CD406A1DAEC108007DA826 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD40681DAEC108007DA826 /* SettingsViewController.swift */; };
+		F1CD406D1DAEC12F007DA826 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD406C1DAEC12F007DA826 /* CircleView.swift */; };
+		F1CD406F1DAEEE37007DA826 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD406E1DAEEE37007DA826 /* CircleButton.swift */; };
+		F1CD40711DAEEE63007DA826 /* CircleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CD40701DAEEE63007DA826 /* CircleButton.xib */; };
+		F1CD40731DAEFBC4007DA826 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD40721DAEFBC4007DA826 /* HostViewController.swift */; };
+		F1CD40761DAF03A0007DA826 /* CircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CD40741DAF03A0007DA826 /* CircleCollectionViewCell.swift */; };
+		F1CD40771DAF03A0007DA826 /* CircleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CD40751DAF03A0007DA826 /* CircleCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		492ABB39EFFD3B8FBAFFB8E1 /* Pods-CrowdCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdCircle.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrowdCircle/Pods-CrowdCircle.release.xcconfig"; sourceTree = "<group>"; };
+		5B636B10CA2C84D2366DAE2C /* Pods-CrowdCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdCircle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrowdCircle/Pods-CrowdCircle.debug.xcconfig"; sourceTree = "<group>"; };
+		C4D64A1833AEAB6C2AEDEAC0 /* Pods_CrowdCircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrowdCircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18857811DAFFFC6008BA3BD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Models/Constants.swift; sourceTree = "<group>"; };
+		F18857841DB014F7008BA3BD /* CircleCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleCount.swift; path = Models/CircleCount.swift; sourceTree = "<group>"; };
+		F18857861DB01FC8008BA3BD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = Models/Common.swift; sourceTree = "<group>"; };
+		F188578B1DB036A2008BA3BD /* LocalIPAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalIPAddress.swift; path = Models/LocalIPAddress.swift; sourceTree = "<group>"; };
+		F1B87AC61DB187AE00D7106D /* CrowdCircle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrowdCircle.entitlements; sourceTree = "<group>"; };
+		F1CD404C1DAEB1B2007DA826 /* CrowdCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CD404F1DAEB1B2007DA826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1CD40561DAEB1B2007DA826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1CD40591DAEB1B2007DA826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1CD405B1DAEB1B2007DA826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CD40671DAEC108007DA826 /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		F1CD40681DAEC108007DA826 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F1CD406C1DAEC12F007DA826 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleView.swift; path = Views/CircleView.swift; sourceTree = "<group>"; };
+		F1CD406E1DAEEE37007DA826 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleButton.swift; path = Views/CircleButton.swift; sourceTree = "<group>"; };
+		F1CD40701DAEEE63007DA826 /* CircleButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CircleButton.xib; path = Views/CircleButton.xib; sourceTree = "<group>"; };
+		F1CD40721DAEFBC4007DA826 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		F1CD40741DAF03A0007DA826 /* CircleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleCollectionViewCell.swift; path = Views/CircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1CD40751DAF03A0007DA826 /* CircleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CircleCollectionViewCell.xib; path = Views/CircleCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CD40491DAEB1B2007DA826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52FBB234858A81847723DDE /* Pods_CrowdCircle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30F118CC144E7B471304959 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B636B10CA2C84D2366DAE2C /* Pods-CrowdCircle.debug.xcconfig */,
+				492ABB39EFFD3B8FBAFFB8E1 /* Pods-CrowdCircle.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8CBCC58771D4E3ABFB31E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D64A1833AEAB6C2AEDEAC0 /* Pods_CrowdCircle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F18857831DB000B3008BA3BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F188578B1DB036A2008BA3BD /* LocalIPAddress.swift */,
+				F18857811DAFFFC6008BA3BD /* Constants.swift */,
+				F18857841DB014F7008BA3BD /* CircleCount.swift */,
+				F18857861DB01FC8008BA3BD /* Common.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F1CD40431DAEB1B2007DA826 = {
+			isa = PBXGroup;
+			children = (
+				F1CD404E1DAEB1B2007DA826 /* CrowdCircle */,
+				F1CD404D1DAEB1B2007DA826 /* Products */,
+				A30F118CC144E7B471304959 /* Pods */,
+				E8CBCC58771D4E3ABFB31E53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CD404D1DAEB1B2007DA826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD404C1DAEB1B2007DA826 /* CrowdCircle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CD404E1DAEB1B2007DA826 /* CrowdCircle */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD404F1DAEB1B2007DA826 /* AppDelegate.swift */,
+				F18857831DB000B3008BA3BD /* Models */,
+				F1CD40661DAEC108007DA826 /* Controllers */,
+				F1CD406B1DAEC129007DA826 /* Views */,
+				F1CD40561DAEB1B2007DA826 /* Assets.xcassets */,
+				F1CD40581DAEB1B2007DA826 /* LaunchScreen.storyboard */,
+				F1CD405B1DAEB1B2007DA826 /* Info.plist */,
+				F1B87AC61DB187AE00D7106D /* CrowdCircle.entitlements */,
+			);
+			path = CrowdCircle;
+			sourceTree = "<group>";
+		};
+		F1CD40661DAEC108007DA826 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD40671DAEC108007DA826 /* ClientViewController.swift */,
+				F1CD40721DAEFBC4007DA826 /* HostViewController.swift */,
+				F1CD40681DAEC108007DA826 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1CD406B1DAEC129007DA826 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD406C1DAEC12F007DA826 /* CircleView.swift */,
+				F1CD406E1DAEEE37007DA826 /* CircleButton.swift */,
+				F1CD40701DAEEE63007DA826 /* CircleButton.xib */,
+				F1CD40741DAF03A0007DA826 /* CircleCollectionViewCell.swift */,
+				F1CD40751DAF03A0007DA826 /* CircleCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CD404B1DAEB1B2007DA826 /* CrowdCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CD405E1DAEB1B2007DA826 /* Build configuration list for PBXNativeTarget "CrowdCircle" */;
+			buildPhases = (
+				0BBF1B56374BFE571764C182 /* [CP] Check Pods Manifest.lock */,
+				F188578A1DB0366F008BA3BD /* IP Address */,
+				F1CD40481DAEB1B2007DA826 /* Sources */,
+				F1CD404A1DAEB1B2007DA826 /* Resources */,
+				F1CD40491DAEB1B2007DA826 /* Frameworks */,
+				15052A524602D089DE6C431C /* [CP] Embed Pods Frameworks */,
+				10436EA99707B755C014D6E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrowdCircle;
+			productName = CrowdCircle;
+			productReference = F1CD404C1DAEB1B2007DA826 /* CrowdCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CD40441DAEB1B2007DA826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Realm;
+				TargetAttributes = {
+					F1CD404B1DAEB1B2007DA826 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QX5CR2FTN2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F1CD40471DAEB1B2007DA826 /* Build configuration list for PBXProject "CrowdCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CD40431DAEB1B2007DA826;
+			productRefGroup = F1CD404D1DAEB1B2007DA826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CD404B1DAEB1B2007DA826 /* CrowdCircle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CD404A1DAEB1B2007DA826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CD405A1DAEB1B2007DA826 /* LaunchScreen.storyboard in Resources */,
+				F1CD40711DAEEE63007DA826 /* CircleButton.xib in Resources */,
+				F1CD40771DAF03A0007DA826 /* CircleCollectionViewCell.xib in Resources */,
+				F1CD40571DAEB1B2007DA826 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BBF1B56374BFE571764C182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		10436EA99707B755C014D6E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrowdCircle/Pods-CrowdCircle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15052A524602D089DE6C431C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrowdCircle/Pods-CrowdCircle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F188578A1DB0366F008BA3BD /* IP Address */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "IP Address";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LOCAL_IP_ADDR=$(ipconfig getifaddr $(netstat -f inet -rant | awk '/default/ { print $6; exit }'))\necho \"let localIPAddress = \\\"$LOCAL_IP_ADDR\\\"\" > \"$SRCROOT/CrowdCircle/Models/LocalIPAddress.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CD40481DAEB1B2007DA826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CD406F1DAEEE37007DA826 /* CircleButton.swift in Sources */,
+				F1CD406D1DAEC12F007DA826 /* CircleView.swift in Sources */,
+				F1CD40731DAEFBC4007DA826 /* HostViewController.swift in Sources */,
+				F1CD40691DAEC108007DA826 /* ClientViewController.swift in Sources */,
+				F188578C1DB036A2008BA3BD /* LocalIPAddress.swift in Sources */,
+				F1CD40501DAEB1B2007DA826 /* AppDelegate.swift in Sources */,
+				F1CD40761DAF03A0007DA826 /* CircleCollectionViewCell.swift in Sources */,
+				F1CD406A1DAEC108007DA826 /* SettingsViewController.swift in Sources */,
+				F18857851DB014F7008BA3BD /* CircleCount.swift in Sources */,
+				F18857871DB01FC8008BA3BD /* Common.swift in Sources */,
+				F18857821DAFFFC6008BA3BD /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1CD40581DAEB1B2007DA826 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CD40591DAEB1B2007DA826 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1CD405C1DAEB1B2007DA826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1CD405D1DAEB1B2007DA826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CD405F1DAEB1B2007DA826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B636B10CA2C84D2366DAE2C /* Pods-CrowdCircle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CrowdCircle/CrowdCircle.entitlements;
+				DEVELOPMENT_TEAM = QX5CR2FTN2;
+				INFOPLIST_FILE = CrowdCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.CrowdCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F1CD40601DAEB1B2007DA826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492ABB39EFFD3B8FBAFFB8E1 /* Pods-CrowdCircle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CrowdCircle/CrowdCircle.entitlements;
+				DEVELOPMENT_TEAM = QX5CR2FTN2;
+				INFOPLIST_FILE = CrowdCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.realm.CrowdCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CD40471DAEB1B2007DA826 /* Build configuration list for PBXProject "CrowdCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CD405C1DAEB1B2007DA826 /* Debug */,
+				F1CD405D1DAEB1B2007DA826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CD405E1DAEB1B2007DA826 /* Build configuration list for PBXNativeTarget "CrowdCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CD405F1DAEB1B2007DA826 /* Debug */,
+				F1CD40601DAEB1B2007DA826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CD40441DAEB1B2007DA826 /* Project object */;
+}
