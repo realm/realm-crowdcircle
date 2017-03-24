@@ -55,4 +55,4 @@ This project adheres to the [Contributor Covenant Code of Conduct](https://realm
 
 # License
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the Apache license. See ``LICENSE`` for more information.
