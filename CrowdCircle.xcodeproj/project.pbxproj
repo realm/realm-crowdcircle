@@ -418,6 +418,7 @@
 				CODE_SIGN_ENTITLEMENTS = CrowdCircle/CrowdCircle.entitlements;
 				DEVELOPMENT_TEAM = QX5CR2FTN2;
 				INFOPLIST_FILE = CrowdCircle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.realm.CrowdCircle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +434,7 @@
 				CODE_SIGN_ENTITLEMENTS = CrowdCircle/CrowdCircle.entitlements;
 				DEVELOPMENT_TEAM = QX5CR2FTN2;
 				INFOPLIST_FILE = CrowdCircle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.realm.CrowdCircle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
