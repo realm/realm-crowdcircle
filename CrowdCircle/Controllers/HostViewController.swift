@@ -47,7 +47,7 @@ class HostViewController: UIViewController, UICollectionViewDelegateFlowLayout, 
         layout.minimumLineSpacing = 30
         layout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         
-        notificationToken = circleCounts.addNotificationBlock { changes in
+        notificationToken = circleCounts.observe { changes in
             switch (changes) {
             case .initial:
                 self.collectionView.reloadData()
