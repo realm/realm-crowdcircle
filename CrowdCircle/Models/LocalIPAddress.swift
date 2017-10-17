@@ -1,1 +1,1 @@
-let localIPAddress = "192.168.1.12"
+let localIPAddress = "10.0.0.39"
