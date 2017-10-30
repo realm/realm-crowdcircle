@@ -16,15 +16,14 @@ Over time, the values on the host will decrease until they reach 0 again.
 
 - iOS 9.0 and above
 - Xcode 8.3
+- Realm Platform / Realm Object Server 2.0 and above
 
-# Setting Up Realm Mobile Platform
+### Realm Platform
 
-In order to properly use Realm Crowd Circle, an instance of the Realm Object Server must be running for which each client copy of the app can connect.
+This application demonstrates features of the [Realm Platform](http://lrealm.io) and needs to have a working instance of the Realm Object Server version 2.0 or higher available to make data available between instances of the Puzzle app. The Realm Mobile Platform can be downloaded from [Realm  Platform](http://realm.io/pricing).  It is delivered as a series of as a modular server modules that on top of nodejs and can be installed on macOS or Linux.  For information on installing the Realm Platform Server components, please download a copy of the [Developer edition](https://realm.io/pricing/).
 
-* The [macOS version](https://realm.io/docs/get-started/installation/mac/) can be downloaded and run as a `localhost` on any desktop Mac.
-* The [Linux version](https://realm.io/docs/get-started/installation/linux/) can be installed on a publicly accessible server and accessed over the internet.
-
-# Installation
+### Realm Studio
+Another useful tool is [Realm Studio](https://realm.io/products/realm-studio/) which is available for macOS, Linux, Windows and allows developers to inspect and manage Realms. Realm Studio is recommended for all developers and can be downloaded from the [Realm web site](https://realm.io/products/realm-studio/).
 
 [CocoaPods](http://cocoapods.org/) is required in order to install all of the third party dependencies (such as Realm itself) into Realm Crowd Circle.
 
